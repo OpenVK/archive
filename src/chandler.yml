@@ -1,0 +1,24 @@
+chandler:
+    debug: true
+    websiteUrl: null
+    rootApp:    "openvk"
+    
+    preferences:
+        appendExtension: "xhtml"
+        adminUrl: "/chandlerd"
+        exposeChandler: true
+    
+    extensions:
+        path: null
+        allEnabled: true
+    
+    database:
+        dsn: "mysql:host=localhost;dbname=openvk"
+        user: "openvk"
+        password: "openvk"
+    
+    security:
+        secret: "REPLACE_ME"
+        csrfProtection: "permissive"
+        extendedValidation: false
+        sessionDuration: 14

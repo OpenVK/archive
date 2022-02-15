@@ -1,0 +1,1 @@
+OpenVK packager. Collects dependencies, SQL dumps and resources in one archive for fast installation :D

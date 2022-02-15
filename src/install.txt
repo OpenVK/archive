@@ -1,0 +1,9 @@
+0) Import INSTALL.sql to your MySQL CE Database
+1) Edit chandler.yml (don't forget to set db and key!)
+2) Edit extensions/available/openvk/openvk.yml (don't forget to set event db!)
+3) Set your document root to htdocs folder (check install/nginx.conf if you use nginx)
+4) Enjoy! Default password is "admin" and user is "admin@localhost.localdomain6"
+
+p.s. to make video/audio uploads work make sure you have FFMpeg and gstreamer installed
+p.s.s. read article about optimizing file storage to improve performance
+p.s.s.s. to make OVK work with CDN/enable notifications/telemetry you will need to do additional configuration
